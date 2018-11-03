@@ -30,33 +30,38 @@ background: url("../images/gravel/gravel.png");
     margin-top: 10px;
     margin-right: 25px;}
 
-    #myname {
-      float: left;
-      width: 261px;
-      height: 89px;
-      font-family: Georgia, Times, "Times New Roman", serif;
-      font-size: 30px;
-      font-weight: 700;
-      line-height: 90px;
-      color: #fff;
-      text-align: center;
-      text-decoration: none;
-      background: #4aaaa5;}
+  #myname {
+    float: left;
+    width: 261px;
+    height: 89px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;}
     
-  h1,h2,p {margin-bottom: 20px;}
+  p {margin-bottom: 20px;}
   
   h1,h2 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
+    margin-bottom: 20px;
     color: #4aaaa5;}
   
   h1 {padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid #ddd;}
-  
-  h2 {    font-size: 22px;}
-  
+    
+  h2 {padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;  }
+    
+
   #masthead {
     position: fixed;
     width: 960px;
@@ -86,11 +91,6 @@ background: url("../images/gravel/gravel.png");
     text-align: center;
     background: #666;
     border-top: 8px solid #4aaaa5;}
-  
-  h2 {padding-bottom: 20px;
-    margin-bottom: 15px;
-    line-height: 22px;
-    border-bottom: 2px solid #eee;  }
   
   main {padding-top: 130px;}
   
